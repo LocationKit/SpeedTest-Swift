@@ -1,0 +1,10 @@
+PODS:
+  - LocationKit (2.0.9)
+
+DEPENDENCIES:
+  - LocationKit (~> 2.0.0)
+
+SPEC CHECKSUMS:
+  LocationKit: b4bfca1cdaa8219771c0a1d6f4d3a9373ac144a6
+
+COCOAPODS: 0.38.2
