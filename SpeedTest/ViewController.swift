@@ -14,7 +14,7 @@ class ViewController: UIViewController, LocationKitDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        LocationKit.sharedInstance().startWithApiToken("", andDelegate: self)
+        LocationKit.sharedInstance().startWithApiToken("your_api_token_here", delegate: self)
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,20 +24,18 @@ class ViewController: UIViewController, LocationKitDelegate {
 
     func locationKit(locationKit: LocationKit!, didUpdateLocation location: CLLocation!) {
 
-        if let loc = location {
-            if (location.speed > 1) {
-                self.speed.text = "\(location.speed * 2.236936) MPH"
-            } else if (location.speed >= 0 && location.speed < 1) {
-                self.speed.text = "Stopped"
-            } else {
-                self.speed.text = "Unknown"
-            }
+        if (location.speed > 1) {
+            self.speed.text = "\(location.speed * 2.236936) MPH"
+        } else if (location.speed >= 0 && location.speed < 1) {
+            self.speed.text = "Stopped"
+        } else {
+            self.speed.text = "Unknown"
+        }
             
-            if loc.speed > 0 {
-                speed.text = "\(round(loc.speed * 2.236936)) MPH"
-            } else {
-                speed.text = "Not moving"
-            }
+        if location.speed > 0 {
+            speed.text = "\(round(location.speed * 2.236936)) MPH"
+        } else {
+            speed.text = "Not moving"
         }
     }
 }

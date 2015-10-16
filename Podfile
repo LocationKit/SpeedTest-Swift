@@ -2,7 +2,7 @@
 # platform :ios, '6.0'
 
 target 'SpeedTest' do
-  pod 'LocationKit', '~> 2.0.0'
+  pod 'LocationKit', '~> 2.3.0'
 end
 
 target 'SpeedTestTests' do

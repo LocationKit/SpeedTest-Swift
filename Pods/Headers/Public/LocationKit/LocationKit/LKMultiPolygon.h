@@ -1,0 +1,1 @@
+../../../../LocationKit/LocationKit.framework/Versions/A/Headers/LKMultiPolygon.h
