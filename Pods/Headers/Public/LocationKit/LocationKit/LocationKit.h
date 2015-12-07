@@ -1,1 +1,1 @@
-../../../../LocationKit/LocationKit.framework/Versions/A/Headers/LocationKit.h
+../../../../LocationKit/LocationKit.framework/Headers/LocationKit.h

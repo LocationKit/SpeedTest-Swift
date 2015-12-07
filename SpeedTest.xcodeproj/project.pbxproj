@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		570BE4661B6ACCB600D5A7FD /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570BE4651B6ACCB600D5A7FD /* LocationManager.swift */; };
+		07328D17780374239B31FCC3 /* Pods_SpeedTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CB069CD5362FEBE5C667A6 /* Pods_SpeedTest.framework */; };
 		574F04EB1B6AC9DC001091F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F04EA1B6AC9DC001091F0 /* AppDelegate.swift */; };
 		574F04ED1B6AC9DC001091F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F04EC1B6AC9DC001091F0 /* ViewController.swift */; };
 		574F04F01B6AC9DC001091F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574F04EE1B6AC9DC001091F0 /* Main.storyboard */; };
 		574F04F21B6AC9DC001091F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574F04F11B6AC9DC001091F0 /* Images.xcassets */; };
 		574F04F51B6AC9DC001091F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 574F04F31B6AC9DC001091F0 /* LaunchScreen.xib */; };
 		574F05011B6AC9DC001091F0 /* SpeedTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574F05001B6AC9DC001091F0 /* SpeedTestTests.swift */; };
-		656345107A608465AFD75E27 /* libPods-SpeedTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 829C5988E196A9B2AFF79E5B /* libPods-SpeedTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +29,6 @@
 /* Begin PBXFileReference section */
 		1BC416960004B62948EA7AB8 /* Pods-SpeedTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedTest/Pods-SpeedTest.release.xcconfig"; sourceTree = "<group>"; };
 		31EEB178150FD20325FBCFF8 /* Pods-SpeedTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedTest/Pods-SpeedTest.debug.xcconfig"; sourceTree = "<group>"; };
-		570BE4651B6ACCB600D5A7FD /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		574F04E51B6AC9DC001091F0 /* SpeedTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		574F04E91B6AC9DC001091F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		574F04EA1B6AC9DC001091F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +40,7 @@
 		574F04FF1B6AC9DC001091F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		574F05001B6AC9DC001091F0 /* SpeedTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTestTests.swift; sourceTree = "<group>"; };
 		574F050C1B6ACBA8001091F0 /* SpeedTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpeedTest-Bridging-Header.h"; sourceTree = "<group>"; };
-		829C5988E196A9B2AFF79E5B /* libPods-SpeedTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpeedTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75CB069CD5362FEBE5C667A6 /* Pods_SpeedTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				656345107A608465AFD75E27 /* libPods-SpeedTest.a in Frameworks */,
+				07328D17780374239B31FCC3 /* Pods_SpeedTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +101,6 @@
 				574F04F11B6AC9DC001091F0 /* Images.xcassets */,
 				574F04F31B6AC9DC001091F0 /* LaunchScreen.xib */,
 				574F04E81B6AC9DC001091F0 /* Supporting Files */,
-				570BE4651B6ACCB600D5A7FD /* LocationManager.swift */,
 			);
 			path = SpeedTest;
 			sourceTree = "<group>";
@@ -136,7 +133,7 @@
 		6AD0609D1CDC54F7DC98557D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				829C5988E196A9B2AFF79E5B /* libPods-SpeedTest.a */,
+				75CB069CD5362FEBE5C667A6 /* Pods_SpeedTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -153,6 +150,7 @@
 				574F04E21B6AC9DC001091F0 /* Frameworks */,
 				574F04E31B6AC9DC001091F0 /* Resources */,
 				0164FFF67D6011B92B0E7725 /* Copy Pods Resources */,
+				AA435012138E329BDE3F1EF8 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -275,6 +273,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		AA435012138E329BDE3F1EF8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeedTest/Pods-SpeedTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -284,7 +297,6 @@
 			files = (
 				574F04ED1B6AC9DC001091F0 /* ViewController.swift in Sources */,
 				574F04EB1B6AC9DC001091F0 /* AppDelegate.swift in Sources */,
-				570BE4661B6ACCB600D5A7FD /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,7 +429,7 @@
 			baseConfigurationReference = 31EEB178150FD20325FBCFF8 /* Pods-SpeedTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = SpeedTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.socialradar.$(PRODUCT_NAME:rfc1034identifier)";
@@ -431,7 +443,7 @@
 			baseConfigurationReference = 1BC416960004B62948EA7AB8 /* Pods-SpeedTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ENABLE_BITCODE = NO;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = SpeedTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.socialradar.$(PRODUCT_NAME:rfc1034identifier)";

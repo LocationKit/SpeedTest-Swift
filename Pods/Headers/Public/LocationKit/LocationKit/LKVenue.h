@@ -1,1 +1,1 @@
-../../../../LocationKit/LocationKit.framework/Versions/A/Headers/LKVenue.h
+../../../../LocationKit/LocationKit.framework/Headers/LKVenue.h

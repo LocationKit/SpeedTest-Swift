@@ -1,1 +1,1 @@
-../../../../LocationKit/LocationKit.framework/Versions/A/Headers/LKUserValues.h
+../../../../LocationKit/LocationKit.framework/Headers/LKUserValues.h

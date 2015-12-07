@@ -1,8 +1,10 @@
 # Uncomment this line to define a global platform for your project
-# platform :ios, '6.0'
+platform :ios, '8.0'
+
+use_frameworks!
 
 target 'SpeedTest' do
-  pod 'LocationKit', '~> 2.3.0'
+  pod 'LocationKit', '~> 3.0.0'
 end
 
 target 'SpeedTestTests' do

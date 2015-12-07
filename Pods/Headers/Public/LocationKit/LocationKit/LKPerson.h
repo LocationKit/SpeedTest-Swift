@@ -1,1 +1,1 @@
-../../../../LocationKit/LocationKit.framework/Versions/A/Headers/LKPerson.h
+../../../../LocationKit/LocationKit.framework/Headers/LKPerson.h

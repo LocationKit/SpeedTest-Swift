@@ -1,1 +1,0 @@
-../../../../LocationKit/LocationKit.framework/Versions/A/Headers/LKSinglePolygon.h
