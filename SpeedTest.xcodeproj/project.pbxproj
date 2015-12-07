@@ -417,6 +417,7 @@
 			baseConfigurationReference = 31EEB178150FD20325FBCFF8 /* Pods-SpeedTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SpeedTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.socialradar.$(PRODUCT_NAME:rfc1034identifier)";
@@ -430,6 +431,7 @@
 			baseConfigurationReference = 1BC416960004B62948EA7AB8 /* Pods-SpeedTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SpeedTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.socialradar.$(PRODUCT_NAME:rfc1034identifier)";
